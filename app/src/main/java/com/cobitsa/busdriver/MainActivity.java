@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    URL url = new URL("https://api.codingnome.dev/bus/" + busId);
+                    URL url = new URL("https://cobitsa.herokuapp.com/bus/" + busId);
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setRequestMethod("DELETE");
 
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void tracing(String busId,String busNum, int flag) throws IOException {
         // final TTS tts = new TTS();
-        URL url = new URL("https://api.codingnome.dev/bus/" + busId);
+        URL url = new URL("https://cobitsa.herokuapp.com/bus/" + busId);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
         try {
