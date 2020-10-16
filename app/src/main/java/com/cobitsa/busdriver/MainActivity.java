@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imageView9;
 
     String busId = "381205";
-    String busNum = "5002";
+    String busNum = "752";
     public int flag;
     public int blind;
     Button button;
